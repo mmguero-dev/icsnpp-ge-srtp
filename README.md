@@ -84,6 +84,34 @@ This log summarizes, by connection, GE SRTP frames transmitted to `ge_srtp_gener
 | oem_protected             | string          | OEM protected bit.                                                                     |
 | plc_state                 | string          | PLC State                                                                              |
 
+#### Service Request Codes 
+
+The following request codes are present in the `service_request_code` field within `ge_srtp_general.log`. More detailed logging for information specific to each request code is not currently availiable.
+
+| Service Request Code                      | Logging Level        |
+| ----------------------------------------- | ---------------------|
+| Plc Short Status Request                  | Logged - Header Only |
+| Return Control Program Names              | Logged - Header Only |
+| Read System Memory                        | Logged - Header Only |
+| Read Task Memory                          | Logged - Header Only |
+| Read Program Memory                       | Logged - Header Only |
+| Write System Memory                       | Logged - Header Only |
+| Write Task Memory                         | Logged - Header Only |
+| Write Program Block Memory                | Logged - Header Only |
+| Programmer Logon                          | Logged - Header Only |
+| Change Plc Cpu Privilege Level            | Logged - Header Only |
+| Set Control Id Cpu Id                     | Logged - Header Only |
+| Set Plc Run Vs Stop                       | Logged - Header Only |
+| Set Plc Time Date                         | Logged - Header Only | 
+| Return Plc Time Date                      | Logged - Header Only |
+| Return Fault Table                        | Logged - Header Only |
+| Clear Fault Table                         | Logged - Header Only |
+| Program Store Upload From Plc             | Logged - Header Only |
+| Program Load Download To Plc              | Logged - Header Only |
+| Return Controller Type And Id Information | Logged - Header Only |
+| Toggle Force System Memory                | Logged - Header Only |
+
+
 ## ICSNPP Packages
 
 All ICSNPP Packages:
